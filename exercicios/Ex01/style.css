@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.conteiner-card{
+    width: 500px;
+    height: 700px;
+    background-color: rgb(252, 248, 240);
+    display: flex;
+    flex-direction: column;
+    border-radius: 32px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 12px 8px 12px rgb(102, 126, 234, 0.3);
+}
+
+.ifnprod{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 60px;
+
+}
+
+.tag{
+    width: 80px;
+    height: 20px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+}
+
+.title{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+
+}
+.descr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.prec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+.prec1{
+    padding-top: 20px;
+    text-decoration:line-through ;
+    color: #6b6b6b;
+    font-size: 16px;
+}
+.prec2{
+    font-size: 32px;
+}
+
+/* .bot{
+    width: 80px;
+    height: 40px;
+    position: absolute;
+    bottom: 40px;
+    left: 380px;
+    background-color: #1f1f1f;
+    color: #ffffff;
+    border-radius: 12px;
+
+} */
+
